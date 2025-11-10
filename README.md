@@ -96,4 +96,14 @@ python main.py
 - 3D建模和重建
 - 深度传感器数据处理
 
+
+
+## 参考文献
+
+[1] M. Han, P. Wang, X. Wang, et al., "Mobile Grabbing Robot with Target Detection Using Quadric Fitting," in *2021 IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA)*. IEEE, 2021, pp. 199–200.
+
+[2] M. Han, J. Kan, G. Yang, et al., "Robust Ellipsoid Fitting Using Combination of Axial and Sampson Distances," *IEEE Transactions on Instrumentation and Measurement*, vol. 72, pp. 1–14, 2023.
+
+[3] Kelejun, "Astro Pro 1: A High-Precision Robotic Arm for Education and Research," *Kelejun's Blog*, 2024. [Online]. Available: https://blog.kelejun.cn/article/astropro1/
+
 ### readme由qwen协助编写
