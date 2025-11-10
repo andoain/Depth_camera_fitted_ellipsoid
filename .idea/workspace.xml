@@ -4,53 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51bdd9f7-6d04-4aa8-8d39-75d066c610b6" name="更改" comment="能跑的还未修的代码">
+    <list default="true" id="51bdd9f7-6d04-4aa8-8d39-75d066c610b6" name="更改" comment="updated readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNI2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_visualization_final.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_visualization_fixed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_visualization_wireframe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complete_pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coordinate_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug_color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug_import.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/depth_processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/depth_processing_fixed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/depth_processing_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ellipsoid_fitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ellipsoid_fitting_improved.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ellipsoid_fitting_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ellipsoid_wireframe_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/improved_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_refactored.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimal_openni_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointcloud_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointcloud_utils_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/safe_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup_openni.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_advanced_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_center_alignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_color_fix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_color_fix_corrected.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_complete_pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_comprehensive_fitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_coordinate_alignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_coordinate_fix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_final_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_full_scene.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_improved_fitting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_modules.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_open3d_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_openni.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_position_fix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_wireframe_visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualization_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov8n.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,18 +44,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "andoain"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;andoain&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/andoain/Depth_camera_fitted_ellipsoid.git",
-    "accountId": "cd6943a0-f7ce-48db-96cd-b68966820a91"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/andoain/Depth_camera_fitted_ellipsoid.git&quot;,
+    &quot;accountId&quot;: &quot;cd6943a0-f7ce-48db-96cd-b68966820a91&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -111,35 +67,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.complete_pipeline.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_refactored.executor": "Run",
-    "Python.multiple.executor": "Run",
-    "Python.ransac.executor": "Run",
-    "Python.safe_main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "tesing",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Python/课设摸鱼/构造数据",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.complete_pipeline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_refactored.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multiple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ransac.executor&quot;: &quot;Run&quot;,
+    &quot;Python.safe_main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tesing&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Python/课设摸鱼&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python\课设摸鱼\构造数据" />
       <recent name="E:\Python\课设摸鱼" />
+      <recent name="E:\Python\课设摸鱼\构造数据" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Python\课设摸鱼\构造数据" />
@@ -170,7 +126,8 @@
       <workItem from="1762678799922" duration="592000" />
       <workItem from="1762679605353" duration="13000" />
       <workItem from="1762679866697" duration="12141000" />
-      <workItem from="1762736947895" duration="8023000" />
+      <workItem from="1762736947895" duration="8214000" />
+      <workItem from="1762746412934" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="整理了不涉及实物的部分代码">
       <option name="closed" value="true" />
@@ -196,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762743331729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="删除了多余的调试文件">
+      <option name="closed" value="true" />
+      <created>1762746224067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762746224067</updated>
+    </task>
+    <task id="LOCAL-00005" summary="整理了文件到final_version">
+      <option name="closed" value="true" />
+      <created>1762746264172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762746264172</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated readme">
+      <option name="closed" value="true" />
+      <created>1762746361908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762746361908</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +209,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整理了不涉及实物的部分代码" />
     <MESSAGE value="能跑的还未修的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="能跑的还未修的代码" />
+    <MESSAGE value="删除了多余的调试文件" />
+    <MESSAGE value="整理了文件到final_version" />
+    <MESSAGE value="updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
