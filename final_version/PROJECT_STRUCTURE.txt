@@ -1,0 +1,15 @@
+深度相机椭球拟合系统
+├── main.py                     # 主程序入口 - 深度相机数据处理主流程
+├── README.md                   # 项目说明文档
+├── TECHNICAL_DOC.md           # 详细技术文档
+├── modules/                    # 功能模块目录
+│   ├── pointcloud_utils.py     # 点云转换工具 - 深度图转点云
+│   ├── depth_processing.py     # 深度处理 - 掩码应用、距离滤波
+│   ├── ellipsoid_fitting.py    # 椭球拟合 - RANSAC算法、几何拟合
+│   ├── advanced_visualization.py # 高级可视化 - 3D点云和椭球显示
+│   └── yolo_utils.py           # YOLO工具 - 目标检测和分割
+└── dataset/                    # 数据输出目录
+    └── pointcloud/             # PLY点云文件存储目录
+        ├── 00000001_obj_1.ply  # 目标1点云
+        ├── 00000001_obj_2.ply  # 目标2点云
+        └── ...                 # 更多PLY文件

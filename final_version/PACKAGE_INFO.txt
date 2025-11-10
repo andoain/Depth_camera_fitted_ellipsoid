@@ -1,0 +1,65 @@
+深度相机椭球拟合系统 - 最终发布版
+===================================================
+
+项目概述:
+这是一个完整的深度相机数据处理系统，能够:
+- 实时获取深度相机数据
+- 使用YOLO进行目标检测和分割
+- 从深度数据重建3D彩色点云
+- 对检测目标进行椭球拟合
+- 提供交互式3D可视化
+- 保存结果为PLY格式文件
+
+系统要求:
+- Python 3.8+
+- Windows系统
+- Orbbec深度相机（如Astra系列）
+- USB3.0接口
+
+依赖库:
+- opencv-python
+- open3d
+- numpy
+- scikit-learn
+- ultralytics
+- openni
+
+目录结构:
+├── main.py                    # 主程序入口
+├── README.md                  # 使用说明
+├── TECHNICAL_DOC.md          # 详细技术文档
+├── PROJECT_STRUCTURE.txt     # 项目结构说明
+├── OpenNI2.dll               # OpenNI库文件
+├── openniSDKWin64/           # OpenNI SDK目录
+│   └── sdk/                  # SDK文件
+│       ├── Include/          # 头头文件
+│       └── libs/             # 库文件
+└── modules/                  # 功能模块
+    ├── pointcloud_utils.py    # 点云转换
+    ├── depth_processing.py    # 深度处理
+    ├── ellipsoid_fitting.py   # 椭球拟合
+    ├── advanced_visualization.py # 可视化
+    └── yolo_utils.py          # YOLO检测
+└── dataset/                  # 输出目录
+    └── pointcloud/           # PLY点云文件
+
+使用方法:
+1. 确保深度相机已连接
+2. 安装所需依赖库
+3. 运行: python main.py
+4. 按 'r' 键处理当前帧
+5. 按 'q' 键退出程序
+
+输出说明:
+- 拟合的椭球参数（中心、轴长）
+- PLY格式点云文件（保存在 dataset/pointcloud/）
+- 3D可视化窗口显示结果
+
+注意事项:
+- 首次运行YOLO可能需要下载模型
+- 确保相机驱动和SDK正确安装
+- 部分遮挡目标也能进行几何拟合
+- 无检测目标时会处理整个场景
+
+许可证:
+仅供学习和研究使用
