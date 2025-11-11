@@ -2,14 +2,15 @@
 完整的主程序：处理深度相机数据，YOLO分割，彩色点云重建，椭球拟合和可视化
 """
 import os
-import sys
-import numpy as np
+
 import cv2
-from modules.pointcloud_utils import DepthToPointCloudConverter
-from modules.yolo_utils import YOLODetector
+import numpy as np
+
+from modules.advanced_visualization import visualize_all_objects_with_colored_pointcloud
 from modules.depth_processing import DepthProcessor
 from modules.ellipsoid_fitting import fit_ellipsoid_to_points, force_ellipsoid_fitting
-from modules.advanced_visualization import visualize_all_objects_with_colored_pointcloud
+from modules.pointcloud_utils import DepthToPointCloudConverter
+from modules.yolo_utils import YOLODetector
 
 # OpenNI库初始化
 try:
@@ -217,7 +218,6 @@ class DepthCameraProcessor:
                         print(f"整个场景点云包含 {len(np.asarray(full_pointcloud.points))} 个点")
                         
                         # 对整个点云进行体素下采样
-                        import open3d as o3d
                         if len(full_pointcloud.points) > 1000:
                             downsampled_pcd = full_pointcloud.voxel_down_sample(0.01)  # 1cm体素
                             points_for_fitting = np.asarray(downsampled_pcd.points)
