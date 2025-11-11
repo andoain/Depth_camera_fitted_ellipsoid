@@ -104,6 +104,6 @@ python main.py
 
 [2] M. Han, J. Kan, G. Yang, et al., "Robust Ellipsoid Fitting Using Combination of Axial and Sampson Distances," *IEEE Transactions on Instrumentation and Measurement*, vol. 72, pp. 1–14, 2023.
 
-[3] Kelejun, "Astro Pro 1: A High-Precision Robotic Arm for Education and Research," *Kelejun's Blog*, 2024. [Online]. Available: https://blog.kelejun.cn/article/astropro1/
+[3] Kelejun, "Astro Pro 1 *Kelejun's Blog*, 2024. [Online]. Available: https://blog.kelejun.cn/article/astropro1/
 
 ### readme由qwen协助编写
